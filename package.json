@@ -1,0 +1,23 @@
+{
+  "name": "talk-profiling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint --max-warnings=0 *.js",
+    "configure": "node-gyp configure",
+    "build": "node-gyp build"
+  },
+  "author": "Sebastien Cottinet",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.4.0"
+  },
+  "dependencies": {
+    "bignum": "^0.13.0",
+    "bindings": "^1.3.0",
+    "nan": "^2.11.0",
+    "node-gyp": "^3.8.0"
+  }
+}
